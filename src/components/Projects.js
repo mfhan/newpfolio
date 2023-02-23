@@ -53,7 +53,7 @@ function Projects() {
                     <p><strong>TECHNOLOGIES USED</strong>: React, React-Router, Node, Express, Sequelize, Postgres, Axios, Json web Token, bcrypt, Mapbox, react-map-gl </p>
                     <p><strong>GITHUB repo</strong>: <a href="https://github.com/mfhan/payplay/" rel="noreferrer" target="_blank"> https://github.com/mfhan/payplay  </a></p>
                     <p><a href="https://payplay.surge.sh" rel="noreferrer" target="_blank">Visit PayPlay.surge.sh!</a></p>
-                    <a href="https://medium.com/p/7a96b421bd90/" target="_blank">  <img className="bio-logo" src="assets/social/medium.png" alt="" /> Medium Blog Link </a>
+                    <a href="https://medium.com/p/7a96b421bd90/" rel="noreferrer" target="_blank">  <img className="bio-logo" src="assets/social/medium.png" alt="" /> Medium Blog Link </a>
                 </div>
             </div >
         </>
