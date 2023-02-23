@@ -42,7 +42,7 @@ function Projects() {
                     <img className="project-img" src={require("./assets/oly_women.png")} alt="" />
 
                     <p className="info">Timelapse visualization showing more and more female athletes fromm all over the world are competing at the summer olympics</p>
-                    <p><strong>TECHNOLOGIES USED</strong>: Python, Plotly </p>
+                    <p><strong>TOOLS USED</strong>: Python, Numpy, Plotly </p>
                     <p><strong>GITHUB repo</strong>: <a href="https://github.com/mfhan/olympics/" rel="noreferrer" target="_blank"> https://github.com/mfhan/olympics  </a></p>
 
 
@@ -51,7 +51,7 @@ function Projects() {
                     <h3>PayPlay: Support Street Artists Near You</h3>
                     <img className="project-img" src="https://i.imgur.com/X9BjP6N.png" alt="" />
                     <p className="info">Using a map interface to input and visualize data. In this case, an app to help street artists share their location and be more discoverable</p>
-                    <p><strong>TECHNOLOGIES USED</strong>: React, React-Router, Node, Express, Sequelize, Postgres, Axios, Json web Token, bcrypt, Mapbox, react-map-gl </p>
+                    <p><strong>TOOLS USED</strong>: React, React-Router, Node, Express, Sequelize, Postgres, Axios, Json web Token, bcrypt, Mapbox, react-map-gl </p>
                     <p><strong>GITHUB repo</strong>: <a href="https://github.com/mfhan/payplay/" rel="noreferrer" target="_blank"> https://github.com/mfhan/payplay  </a></p>
 
                 </div>
