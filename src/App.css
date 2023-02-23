@@ -20,9 +20,20 @@ body {
 
 .hero_image {
   background-image: url("./images/medina_bg.jpeg");
+  padding-top: 160px;
+  text-align: center;
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero_image h1 {
+  /* display: linear-block; */
+  font-size: 48px;
+  display: inline;
+  margin-top: 60px;
+  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, .6), rgba(255, 255, 255, .6));
+  padding: 5px 15px;
 }
 
 /* .container{
@@ -236,6 +247,36 @@ h5 {
   padding: 10px;
 }
 
+.ulStyles {
+  position: fixed;
+  top: 0;
+  margin: 0;
+
+  height: 50px;
+  width: 100%;
+  /* padding-top: 50px; */
+  list-style: none;
+  background-color: #6699d4;
+}
+
+.aStyles a {
+  display: inline-block;
+  color: white;
+  opacity: 0.8;
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+.aStyles {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
 
 #refreshCan {
   background-color: #d9d9d9;
@@ -250,18 +291,14 @@ h5 {
 }
 
 #about {
-  margin-top: 30px;
-  padding-top: 30px;
+  margin: 30px 45px 30px 45px;
+  padding-bottom: 30px;
   /* margin-right:50px; */
 }
 
-#contactme {
-  margin-top: 30px;
-  padding-top: 30px;
-}
 
 .social {
-  display: inline;
+  display: block;
   /* flex-wrap: space-between; */
   flex-wrap: space-around;
   text-align: center;
@@ -276,9 +313,9 @@ h5 {
 
 .social-logo {
   /* display:inline-block; */
-  height: 60px;
-  width: 60px;
-  margin: 0px 5px 0px 0px;
+  height: 45px;
+  width: 45px;
+  margin: 30px 50px 0px 50px;
 }
 
 .bio-logo {
@@ -290,10 +327,12 @@ h5 {
 
 .bio {
   display: block;
+  /* list-style-type: none; */
   margin-left: 30px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 25px;
   max-width: 800px;
+  padding-left: 45px;
 }
 
 li {
@@ -301,10 +340,15 @@ li {
   margin-top: 5px;
 }
 
-.subhead {
+#subhead {
+  display: block;
+  /* width: 10em; */
+  text-align: center;
   initial-letter: 3;
   margin-top: 15px;
-  list-style-type: none;
+  margin-left: -25px;
+  margin-right: auto;
+  /* list-style-type: none; */
 }
 
 /* 
@@ -318,6 +362,7 @@ li {
   display: block;
   /* flex-direction: row; */
   margin: 10px 20px 10px 0px;
+
   /* text-align: center; */
 }
 
@@ -328,16 +373,24 @@ li {
   color: rgba(178, 178, 178, 1)
 }
 
+#contactme {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 form.container {
   background-color: rgba(241, 241, 241, 1);
   /* display: inline-block; */
   display: grid;
   justify: center;
+  box-sizing: border-box;
   /* float: center; */
-  float: left;
   max-width: 800px;
   padding: 20px;
-  /* margin: 5px; */
+  margin: 20px 30px 40px 40px;
 }
 
 input {
@@ -363,17 +416,21 @@ textarea {
   display: inline-block;
   background-color: #0033cc;
   float: none;
+  /* align-self: start; */
   margin-right: 20px;
   vertical-align: middle;
+  align-self: center;
+  width: fit-content;
+  /* ^^^ this was key */
   /* background-color: rgba(111, 171, 130, 1); */
   border-radius: 5px;
   border: none;
   color: white;
   height: 5%;
-  min-height: 20px;
+  min-height: 30px;
   min-width: 100px;
   /* margin: 5px; */
-  /* padding: 10px; */
+  padding: 10px;
 }
 
 /*
@@ -402,6 +459,22 @@ textarea {
 .samples {
   margin-top: 20px;
 }
+
+.project-img {
+  max-width: 100%;
+
+  /* margin: 0px 0px 0px 0px; */
+  /* padding: 0px 0px 0px 0px; */
+}
+
+#project-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 
 #projects {
   width: 95%;
@@ -452,6 +525,49 @@ textarea {
   max-height: 600px;
   margin: 5px 2px 5px 2px;
   /* border: 1px solid green; */
+}
+
+
+.project-card {
+  display: flex;
+  flex: 1;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid white;
+  border-radius: 2px;
+  /* box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 30%); */
+}
+
+/* .project-card {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid white;
+  border-radius: 2px;
+  /* box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 30%); 
+}*/
+
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+}
+
+@media (max-width: 900px) {
+  .projects-container {
+    display: block;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  }
 }
 
 .card {

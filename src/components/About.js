@@ -3,8 +3,8 @@ import React from 'react';
 
 function About() {
     return (
-        <div>
-            <h2>About This Project: </h2>
+        <div id='about'>
+            <p> Visit my <a href='https://github.com/mfhan/newpfolio' target='_blank'>GitHub Repo </a></p>
             <p>MFH 2023</p>
         </div>
     );

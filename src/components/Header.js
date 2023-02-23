@@ -6,25 +6,20 @@ import '../App.css';
 
 function Header() {
 
-    // let ulStyles = {
-    //     'height': '100px',
-    //     'paddingTop': '50px',
-    //     'listStyle': 'none',
-    //     backgroundColor: 'pink'
-    // }
-
-    // let aStyles = {
-    //     display: 'inline',
-    //     color: 'white',
-    //     textAlign: 'center',
-    //     padding: '14px',
-    //     textDecoration: 'none'
-    // }
-
     return (
         <div>
             <Nav />
             <div className='hero_image'>
+                <h1>Marie-France Han</h1>
+
+                <div className="social">
+                    <a href="https://www.github.com/mfhan" target="_blank">
+                        <img className='social-logo' src={require("./assets/social/github.png")} />
+                    </a>
+                    <a href="https://www.LinkedIn.com/in/mariefr" target="_blank">
+                        <img className='social-logo' src={require("./assets/social/linked25.png")} />
+                    </a>
+                </div>
             </div>
 
         </div>
