@@ -14,8 +14,7 @@ import Projects from './Projects'
 //old style: class Main extends React.Component {}
 
 function Main() {
-
-    const [elements, setElements] = useState([]);
+    // const [elements, setElements] = useState([]);
 
     //published to the web: 
     // https://docs.google.com/spreadsheets/d/e/2PACX-1vQm70kl5Y3AQzOk_JWJyzDat1IRM50muU7bEBYz_3h3tb7-2_oHKmGdAtNDBFlEdKCM0zDSoaij-uW_/pubhtml
@@ -24,9 +23,7 @@ function Main() {
     //https://spreadsheets.google.com/feeds/cells/YOURGOOGLESHEETCODE/SHEETPAGENUMBER/public/full?alt=json
 
 
-    let myProjectsUrl = 'https://spreadsheets.google.com/feeds/cells/e/2PACX-1vQm70kl5Y3AQzOk_JWJyzDat1IRM50muU7bEBYz_3h3tb7-2_oHKmGdAtNDBFlEdKCM0zDSoaij-uW_/edit#gid=0'
-
-
+    // let myProjectsUrl = 'https://spreadsheets.google.com/feeds/cells/e/2PACX-1vQm70kl5Y3AQzOk_JWJyzDat1IRM50muU7bEBYz_3h3tb7-2_oHKmGdAtNDBFlEdKCM0zDSoaij-uW_/edit#gid=0'
 
     // const buildProjects = async () => {
     //     const response = await axios.get(myProjectsUrl)
@@ -47,13 +44,6 @@ function Main() {
             <Contact />
             <Projects />
             <About />
-
-            {/* <Routes>
-                <Route path='/contact' element={<Contact />} />
-                <Route exact path='/projects' element={<Projects />} />
-                <Route path='/about' element={<About />} />
-                <Route path='/#bio' element={<Bio />} />
-            </Routes> */}
         </div>
     );
 }

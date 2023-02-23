@@ -4,7 +4,7 @@ function Contact() {
     return (
         <div id="contactme" >
             <h2>GET IN TOUCH:</h2>
-            <p className="contact"><strong>Email:</strong> <a href="mailto:mf212mf@gmail.com?subject=Mail from Our Site&body=Body-goes-here" target="_blank" >mf212mf@gmail.com</a>
+            <p className="contact"><strong>Email:</strong> <a href="mailto:mf212mf@gmail.com?subject=Mail from Our Site&body=Body-goes-here" rel="noreferrer" target="_blank" >mf212mf@gmail.com</a>
             </p>
 
             <p className="contact"><strong>Let's Meet:</strong><link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
