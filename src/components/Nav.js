@@ -7,7 +7,7 @@ function Nav() {
         <ul className='ulStyles'>
             <li className='aStyles'><a href="#bio">About Me</a></li>
             <li className='aStyles'><a href="#contactme">Get in Touch</a></li>
-            <li className='aStyles'><a href="#projects">Projects</a></li>
+            <li className='aStyles'><a href="#project-title">Projects</a></li>
         </ul>
     )
 }

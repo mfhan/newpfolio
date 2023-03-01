@@ -8,18 +8,20 @@ function Bio() {
             <h2 id="subhead">
                 <strong>BIO:</strong>
             </h2>
-            <li id="subhead"> <strong>JOURNALISM:</strong> </li>
+            <li id="sub-subhead"> <strong>JOURNALISM:</strong> </li>
             <ul className="bio" >
-                <li >Public Info officer at the United Nations in New York; Security Council and General Assembly
+                <li >Sciences-Po in Paris <img className='bio-logo' src={require("./assets/social/sciencespo.png")} alt="" /> economics and polisci
                 </li>
-                <li>Columbia journalism school</li>
+                <li >Public Info officer at the United Nations in New York <img className='bio-logo' src={require("./assets/social/un_logo.png")} alt="" />
+                </li>
+                <li>Columbia Journalism School <img className='bio-logo' src={require("./assets/social/columbia.png")} alt="" /> majoring in print</li>
                 <li >Tech reporter at Reuters<img className='bio-logo' src={require("./assets/social/reutersmini.png")} alt="" /> covering  Samsung, Apple, Sony
                 </li>
 
                 <li >News editor at Bloomberg <img className='bio-logo' src={require("./assets/social/bloomberg.png")} alt="" /> covering Russia <img className='bio-logo' src={require("./assets/social/angryputin.png")} alt="" /> and China</li>
             </ul>
             <br />
-            <li id="subhead"> <strong>TECHNOLOGY:</strong>
+            <li id="sub-subhead"> <strong>TECHNOLOGY:</strong>
             </li>
             <ul className="bio" >
                 <li >Tech evangelist at Jet.com building tech talks and workshop series

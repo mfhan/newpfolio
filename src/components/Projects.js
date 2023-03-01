@@ -29,12 +29,12 @@ function Projects() {
 
 
                 <div className="project-card">
-                    <h3>News Translator and Comparator</h3>
+                    <h3><a href="https://newswindow.netlify.app" rel="noreferrer" target="_blank">News Translator and Comparator</a></h3>
                     <img className="project-img" src="https://i.imgur.com/mNvHWrl.png" alt="" />
                     <p className="info">Type in a search word, and three windows will populate with results from US news sources, UK news, and a list of non-English publications whose headlines will be automatically translated via API</p>
                     <p><strong>TECHNOLOGIES USED</strong>: React, React-Router, Axios </p>
                     <p><strong>GITHUB repo</strong>: <a href="https://github.com/mfhan/payplay/" rel="noreferrer" target="_blank"> https://github.com/mfhan/newsone </a></p>
-                    <p><a href="https://payplay.surge.sh" rel="noreferrer" target="_blank">Visit Newswindow.netlify.app!</a></p>
+                    <p><a href="https://newswindow.netlify.app" rel="noreferrer" target="_blank">Visit Newswindow!</a></p>
 
                 </div>
                 <div className="project-card">
