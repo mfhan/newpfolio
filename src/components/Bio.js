@@ -26,7 +26,7 @@ function Bio() {
             <ul className="bio" >
                 <li >Tech evangelist at Jet.com building tech talks and workshop series <img className='bio-logo' src={require("./assets/social/jet.png")} alt="" />
                 </li>
-                <li >Technical content strategist at MongoDB setting up content creation process<img className='bio-logo' src={require("./assets/social/mongo.png")} alt="" />
+                <li >Technical content strategist at MongoDB setting up content creation process<img className='bio-logo' src={require("./assets/social/mongoDB.png")} alt="" />
                 </li>
 
                 <li ><strong>JavaScript</strong> including <strong>React.js</strong> <img className='bio-logo' src={require("./assets/social/react.png")} alt="" /> and <strong>Node.js</strong> <img className='bio-logo' src={require("./assets/social/node.png")} alt="" />
