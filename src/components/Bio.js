@@ -24,15 +24,15 @@ function Bio() {
             <li id="sub-subhead"> <strong>TECHNOLOGY:</strong>
             </li>
             <ul className="bio" >
-                <li >Tech evangelist at Jet.com building tech talks and workshop series
+                <li >Tech evangelist at Jet.com building tech talks and workshop series <img className='bio-logo' src={require("./assets/social/jet.png")} alt="" />
                 </li>
-                <li >Technical content strategist at MongoDB xxxxx
+                <li >Technical content strategist at MongoDB setting up content creation process<img className='bio-logo' src={require("./assets/social/mongo.png")} alt="" />
                 </li>
 
                 <li ><strong>JavaScript</strong> including <strong>React.js</strong> <img className='bio-logo' src={require("./assets/social/react.png")} alt="" /> and <strong>Node.js</strong> <img className='bio-logo' src={require("./assets/social/node.png")} alt="" />
                 </li>
 
-                <li >Git and GitHub <img className='bio-logo' src={require("./assets/social/github.png")} alt="" />; <strong> HTML5 </strong> <img className='bio-logo' src={require("./assets/social/HTML5.png")} alt="" /> and CSS <img className='bio-logo' src={require("./assets/social/CSS3.png")} alt="" />
+                <li >GitHub <img className='bio-logo' src={require("./assets/social/github.png")} alt="" /> <strong> HTML5 </strong> <img className='bio-logo' src={require("./assets/social/HTML5.png")} alt="" /> and CSS <img className='bio-logo' src={require("./assets/social/CSS3.png")} alt="" />
                 </li>
 
                 <li >SQL <img className='bio-logo' src={require("./assets/social/SQL.png")} alt="" /> and <strong>Python</strong> <img className='bio-logo' src={require("./assets/social/python.png")} alt="" />

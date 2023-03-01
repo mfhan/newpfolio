@@ -1,5 +1,4 @@
 import HeroSlider, { Overlay, Slide } from "hero-slider";
-import Nav from './Nav';
 import rabatcat from "./assets/rabatcat.jpg";
 import amiens1 from "./assets/2014Amiens_garg3.jpg";
 import amiens2 from "./assets/2014Amiens1.jpg";

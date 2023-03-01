@@ -3,7 +3,6 @@ import '../App.css';
 import Contact from './Contact'
 import About from './About'
 import Bio from './Bio'
-import Header from './Header'
 import SlideHeader from './SlideHeader'
 import Projects from './Projects'
 // import axios from 'axios'
